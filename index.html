@@ -37,14 +37,14 @@
 			//-------------------------------------------------------------------------------------------
 			var configOptions = {
 				// Enter an application ID created through the Shortlist builder
-				appid: "",
+				appid: "f00379d47c754ae68af2c7c3cc58f7f5",
 				// Optionally to secure Shortlist's access, use an OAuth application ID (example: 6gyOg377fLUhUk6f)
 				// User will need to sign-in to access the viewer even if your application is public
 				oAuthAppId: "",
 				// Optionally to be able to use the appid URL parameter, configure here the list of application author
 				//  whose application are allowed to be viewed by this Shortlist deployment
 				// This is the Portal username of the Shortlist owner (e.g. ["user1"], ["user1", "user2"])
-				authorizedOwners: [""]
+				authorizedOwners: ["*"]
 			};
 			// Optionally sharing and proxy URLs can be configured in app/config.js. This is only required
 			//  when the webmap is not hosted on ArcGIS Online or a Portal for ArcGIS instance and the application isn't deployed as /home/Shortlist/ or /apps/Shortlist/.
@@ -159,6 +159,7 @@
 				<div id="builderLanding"></div>
 				<!-- Autoplay -->
 				<div id="autoplay" class="autoplay"></div>
+
 			</div>
 			<!--<div id="testPanel" class="testPanel"></div>-->
 
